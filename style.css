@@ -1,0 +1,315 @@
+body {
+    min-width: 768px;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, p, span {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    height: 80px;
+    font-size: 18px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav ul {
+    height: 80px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 28px 0;
+    margin-left: 35px;
+}
+
+nav li:first-child {
+    margin-left: 200px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px 0 rgba(50, 50, 50, .3), 0 -10px 30px 0 #ffffff;
+}
+
+.logo {
+    float: left;
+    padding: 10px 0;
+    margin-left: 60px;
+}
+
+.main-navigation a {
+    color: #333333;
+    
+}
+
+.main-navigation a:hover {
+    color: black;
+    border-bottom: 3px solid #f8931d;
+} 
+
+.card {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: url(img/background.JPG) no-repeat;
+    background-size: cover;
+}
+
+.card-desc {
+    padding-top: 200px;
+    padding-left: 840px;
+    color: white;
+    font-weight: 600;
+}
+
+.card-title {
+    font-size: 28px;
+    margin-bottom: 20px
+}
+
+.orange {
+    color: #f8931d;
+}
+
+.card-slogan {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-slogan span {
+    background-color: rgba(248, 147, 29, 0.7);
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 80px 0;
+}
+
+.benefits-card {
+    width: 25%;
+    text-align: center;
+}
+
+.benefits-card img {
+    margin-bottom: 30px;
+}
+
+.benefits-card h3 {
+    margin-bottom: 25px;
+}
+
+.benefits-card p {
+    color: #7a7a7a;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.plx {
+    height: 250px;
+    width: 100%;
+    background: url(img/plx_2.jpg) no-repeat center; 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.detail {
+    display: flex;
+    padding: 85px 0;
+}
+
+.detail img {
+    margin-left: 50px;
+    align-self: center;
+}
+
+.detail-desc {
+    max-width: 55%;
+    margin-left: 70px;
+}
+
+.detail-desc h3 {
+    margin-bottom: 23px;
+}
+
+.detail-desc p {
+    margin-bottom: 30px;
+    color: #7a7a7a;
+}
+
+.detail-desc h3 span {
+    font-weight: 600;
+}
+
+.btn {
+    padding: 14px 16px;
+    color: #ffffff;
+    background-color: rgba(248, 147, 29, 1);;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: rgba(248, 127, 29, 1);
+}
+
+.advantages {
+    display: flex;
+    padding: 85px 0;
+}
+
+.advantages img {
+    margin-left: 250px;
+    align-self: center;
+}
+
+.advantages-desc {
+    margin-left: 80px;
+    width: 400px;
+}
+
+.advantages-desc h3 {
+    margin-bottom: 30px;
+}
+
+.advantages-desc h3 span {
+    font-weight: 600;
+}
+
+.advantages-desc li {
+    color: #7a7a7a;
+    margin-bottom: 24px;
+    margin-left: 25px;
+}
+
+.advantages-desc li::before {
+    content: url(img/ulicon.jpg);
+    margin-right: 10px;
+}
+
+.offers {
+    padding: 85px 0;
+    background-color: #f7f7f7;
+}
+
+.offers > h3, 
+.offers > p {
+    padding-left: 30px;
+}
+
+.offers > h3 {
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+.offers > p {
+    margin-bottom: 27px;
+    color: #7a7a7a;
+}
+
+.offers-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.offers-card {
+    width: 340px;
+}
+
+.offers-card h4 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.offers-card p {
+    color: #7a7a7a;
+}
+
+.offers .btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 190px;
+    font-size: 14px;
+}
+
+.feedback {
+    padding: 65px 0;
+}
+
+.feedback h2,
+.feedback p {
+    text-align: center;
+}
+
+.feedback > h2 {
+    margin-bottom: 35px;
+}
+
+.feedback > p {
+    margin-bottom: 45px;
+}
+
+.feedback form {
+    text-align: center;
+}
+
+.feedback input {
+    width: 730px;
+    height: 45px;
+    background-color: #F3F7FA;
+    border-radius: 5px;
+    border: 1px solid #7a7a7a;
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.feedback .btn {
+    display: block;
+    margin: 0 auto;
+    width: 85px;
+    padding: 12px 16px;
+}
+
+footer {
+    background-color: #212529;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.feedback-icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer .square {
+    display: flex;
+    height: 45px;
+    width: 45px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    margin-right: 8px;   
+}
